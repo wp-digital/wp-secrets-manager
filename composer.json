@@ -1,0 +1,15 @@
+{
+  "name": "innocode-digital/wp-secrets-manager",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "description": "Secrets Manager for WordPress based on Transients.",
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Innocode\\SecretsManager\\": "src/"
+    }
+  }
+}
